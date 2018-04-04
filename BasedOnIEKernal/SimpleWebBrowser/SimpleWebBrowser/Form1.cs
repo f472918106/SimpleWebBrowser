@@ -130,5 +130,51 @@ namespace SimpleWebBrowser
                     break;
             }
         }
+
+        int i = 0;
+        private void webBrowser1_NewWindow(object sender, CancelEventArgs e)
+        {
+            e.Cancel = true;
+            WebBrowser CurrentWebBrowser = (WebBrowser)tabControl1.SelectedTab.Controls[0];
+            string url = CurrentWebBrowser.StatusText;
+            WebBrowser NewWebBrowser = new WebBrowser();
+            NewWebBrowser.Url = new Uri(url);
+            NewWebBrowser.Name = "新标签页[" + i + "]";
+            i++;
+            NewWebBrowser.Navigated += new WebBrowserNavigatedEventHandler(webBrowser1_Navigated);
+            NewWebBrowser.Dock = DockStyle.Fill;
+            TabPage NewPage = new TabPage();
+            NewPage.Name = "page" + i;
+            NewPage.Text= "新标签页[" + i + "]";
+            NewPage.Controls.Add(NewWebBrowser);
+            tabControl1.TabPages.Add(NewPage);
+            tabControl1.SelectedTab = NewPage;
+            NewWebBrowser.NewWindow += new CancelEventHandler(webBrowser1_NewWindow);
+        }
+
+        private void webBrowser1_Navigated(object sender, WebBrowserNavigatedEventArgs e)
+        {
+            
+        }
+
+        private void tabControl1_DoubleClick(object sender, EventArgs e)
+        {
+            TabPage CurrentPage = tabControl1.SelectedTab;
+            if(i==0)
+            {
+                DialogResult result;
+                result = MessageBox.Show("是否关闭浏览器?", "提示", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                if(result==DialogResult.Yes)
+                {
+                    Application.Exit();
+                }
+                else
+                {
+                    return;
+                }
+            }
+            tabControl1.TabPages.Remove(CurrentPage);
+            i--;
+        }
     }
 }

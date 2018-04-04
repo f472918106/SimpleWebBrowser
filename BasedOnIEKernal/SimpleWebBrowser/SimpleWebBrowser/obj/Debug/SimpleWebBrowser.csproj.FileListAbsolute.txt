@@ -7,3 +7,12 @@ F:\study\ASP.NET\WebBrowser\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\ob
 F:\study\ASP.NET\WebBrowser\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.csproj.GenerateResource.Cache
 F:\study\ASP.NET\WebBrowser\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.exe
 F:\study\ASP.NET\WebBrowser\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.pdb
+D:\Study\SimpleWebBrowser-master\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\bin\Debug\SimpleWebBrowser.exe.config
+D:\Study\SimpleWebBrowser-master\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.exe
+D:\Study\SimpleWebBrowser-master\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.pdb
+D:\Study\SimpleWebBrowser-master\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\bin\Debug\SimpleWebBrowser.exe
+D:\Study\SimpleWebBrowser-master\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\bin\Debug\SimpleWebBrowser.pdb
+D:\Study\SimpleWebBrowser-master\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.csprojResolveAssemblyReference.cache
+D:\Study\SimpleWebBrowser-master\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.Form1.resources
+D:\Study\SimpleWebBrowser-master\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.Properties.Resources.resources
+D:\Study\SimpleWebBrowser-master\BasedOnIEKernal\SimpleWebBrowser\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.csproj.GenerateResource.Cache
